@@ -6,6 +6,18 @@ body {
     padding-top: 50px;
 }
 
+
+.corner-logo {
+    position: fixed;      /* stays in the same place when scrolling */
+    top: 20px;            /* distance from top */
+    left: 20px;          /* distance from right */
+    width: 90px;          /* size of the logo */
+    height: auto;
+    opacity: 1.0;         /* slightly transparent (optional) */
+}
+
+
+
 .container {
     background: white;
     padding: 20px;
